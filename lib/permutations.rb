@@ -1,4 +1,7 @@
-
 def permutations?(string1, string2)
-  raise NotImplementedError, "permutations? not implemented"
+  
+  first = string1.split("")
+  second = string2.split("")
+
+  return first.sort == second.sort
 end
